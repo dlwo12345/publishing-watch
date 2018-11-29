@@ -1,0 +1,138 @@
+/*isotope 플러그인 사용*/
+
+.portfolio_cont_wrap {
+  width: 100%;
+  background-color: #0a0a0a;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-y: hidden;
+}
+
+.portfolio_menu {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.portfolio_menu>li {
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 13px;
+  background-image: url(./img/footer_bar.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.portfolio_menu>li:last-child {
+  background-image: none;
+}
+
+.portfolio_menu>li.on>a {
+  color: #b38b6b;
+}
+
+.portfolio_menu>li>a {
+  color: #fff;
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.portfolio_cont {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+.portfolio_sortbox > li {
+  width: 30%;
+  float: left;
+  margin: 0 1.66666666%;
+  margin-top: 50px;
+}
+
+.portfolio_sortbox > li img {
+  width: 100%;
+}
+
+.portfolio_sortbox_text {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.portfolio_sortbox_text>h4 {
+  color: #b9906f;
+  padding-bottom: 10px;
+}
+
+.portfolio_sortbox_text {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #0a0a0a;
+  transition: 0.3s;
+}
+
+.portfolio_sortbox>li img {
+  transition: all 0.3s;
+}
+
+.sortbox_img_wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio_sortbox>li:hover img {
+  transform: scale(1.03);
+}
+
+.portfolio_sortbox>li:hover .portfolio_sortbox_text {
+  border-bottom: 1px solid #a68164;
+}
+
+.portfolio_sortbox_text>h4 {
+  color: #b9906f;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.portfolio_sortbox_text>p {
+  font-style: italic;
+  font-size: 12px;
+  color: #a2a2a2;
+}
+
+@media screen and (max-width:1024px) {
+  .portfolio_cont {
+    width: 768px;
+  }
+  .portfolio_sortbox>li {
+    width: 48%;
+    margin: 0 1%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .portfolio_cont {
+    width: 368px;
+  }
+  .portfolio_sortbox {
+    padding-top: 30px;
+  }
+  .portfolio_sortbox > li {
+    width: 100%;
+    float: none;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+
+/*isotope 플러그인 끝*/
