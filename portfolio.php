@@ -144,6 +144,12 @@
       <?php
         include('./footer.php');
     ?>
+
+
+
+
+
+
   </body>
   <script>
     /* 이미지 로딩받아오는데 시간차이 해결을 위해서 ready-> load로 변경 */
